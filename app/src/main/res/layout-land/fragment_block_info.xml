@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.albertbelardino.bitcoindashboard.BlockInfoFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:layout_width="121dp"
+            android:layout_height="66dp"
+            android:text="@string/sizeDifficultyText"
+            android:id="@+id/sizeDifficulty"
+            android:layout_gravity="left|top" />
+
+        <TextView
+            android:layout_width="262dp"
+            android:layout_height="61dp"
+            android:id="@+id/sizeDifficultyTV"
+            android:layout_gravity="right|top" />
+
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="64dp"
+            android:text="@string/hashText"
+            android:id="@+id/blockHash"
+            android:layout_gravity="left|center_vertical" />
+
+        <TextView
+            android:layout_width="246dp"
+            android:layout_height="72dp"
+            android:id="@+id/blockHashTV"
+            android:layout_gravity="right|center_vertical" />
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:text="@string/merklerootText"
+            android:layout_gravity="left|bottom" />
+
+        <TextView
+            android:layout_width="222dp"
+            android:layout_height="68dp"
+            android:id="@+id/merkleRootTV"
+            android:layout_gravity="right|bottom" />
+    </FrameLayout>
+
+</LinearLayout>

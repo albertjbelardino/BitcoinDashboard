@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BitcoinDashboard</string>
+    <string name="extra_key">extra</string>
+    <string name="frag_key">frag</string>
+    <string-array name="FINAL_fragment_navigator_array">
+        <item>Current Price</item>
+        <item>Price Chart</item>
+        <item>Block Info</item>
+        <item>Price at Address</item>
+    </string-array>
+    <string-array name="fragment_navigator_array">
+        <item>Current Price</item>
+        <item>Price Chart</item>
+        <item>Block Info</item>
+        <item>Price at Address</item>
+    </string-array>
+    <string-array name="sample_address_array">
+        <item>198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi</item>
+        <item>1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</item>
+        <item>1L8meqhMTRpxasdGt8DHSJfscxgHHzvPgk</item>
+    </string-array>
+    <string name="block_info_key">block_info</string>
+    <string name="price_at_address_key">price_at_address</string>
+    <string name="current_price_key">current_price</string>
+    <string name="price_chart_key">price_chart</string>
+    <string name="blockNum_key">blockNum</string>
+    <string name="btcAddress_key">btcAddress</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="prevButtonText">Previous</string>
+    <string name="nextButtonText">Next</string>
+    <string name="sizeDifficultyText">Size, Difficulty</string>
+    <string name="merklerootText">Merkle Root</string>
+    <string name="hashText">Hash</string>
+    <string name="current_price">Current Price</string>
+    <string name="sampleAddressText">Sample and Previous Addresses</string>
+    <string name="price_chart">Price Chart</string>
+    <string name="block_info">Block Info</string>
+    <string name="price_at_address">Price at Address</string>
+</resources>

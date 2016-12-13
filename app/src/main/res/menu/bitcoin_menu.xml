@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search"
+        android:title=""
+        android:icon="@drawable/ic_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item android:id="@+id/fragment_navigator"
+        android:icon="@drawable/ic_fragment_navigator"
+        android:title=""
+        app:showAsAction="always" >
+        <menu>
+            <item
+                app:showAsAction="always"
+                android:id="@+id/current_price"
+                android:title="@string/current_price"/>
+
+
+            <item
+                app:showAsAction="always"
+                android:id="@+id/price_chart"
+                android:title="@string/price_chart"/>
+
+
+            <item
+                app:showAsAction="always"
+                android:id="@+id/block_info"
+                android:title="@string/block_info"/>
+
+
+            <item
+                app:showAsAction="always"
+                android:id="@+id/price_at_address"
+                android:title="@string/price_at_address"/>
+        </menu>
+    </item>>
+
+
+
+</menu>
